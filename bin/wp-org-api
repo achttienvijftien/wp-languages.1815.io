@@ -43,7 +43,7 @@ function get_json_url($url) {
   curl_setopt($ch, CURLOPT_POST, false);
   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-  curl_setopt($ch, CURLOPT_USERAGENT,'Sorry for traffic! This is curl-bot for: https://wp-languages.github.io.');
+  curl_setopt($ch, CURLOPT_USERAGENT,'Sorry for traffic! This is curl-bot for: https://wp-languages.1815.io.');
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true );
   curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
