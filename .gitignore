@@ -5,4 +5,4 @@ vendor
 satis.json
 
 # Ignore static html build by satis
-_site
+web

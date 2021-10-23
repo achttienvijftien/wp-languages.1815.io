@@ -1,9 +1,7 @@
 {
-    "name": "Wordpress language packs",
-    "description": "Composer language packs for Wordpress translations. This includes translations for core and official themes and few plugins.",
-    "homepage": "https://wp-languages.github.io",
-    "issues": "https://github.com/wp-languages/wp-languages.github.io",
-    "forum": "https://discourse.roots.io/t/install-update-wordpress-languages-with-composer/2021",
+    "name": "1815/wp-languages",
+    "description": "Composer language packs for WordPress translations. This includes translations for core and official themes and few plugins.",
+    "homepage": "https://wp-languages.1815.io",
     "require-all": true,
     "require-dependencies": true,
     "repositories": []
