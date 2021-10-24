@@ -1,28 +1,23 @@
 {
-    "name": "composer/satis",
-    "description": "Simple Repository Generator",
-    "keywords": ["package", "repository", "generator","wordpress","languages","gh-pages"],
-    "homepage": "https://github.com/achttienvijftien/wp-languages.1815.io",
+    "name": "achttienvijftien/wp-languages.1815.io",
+    "description": "Composer language packs for WordPress translations. This includes translations for core and official themes and few plugins.",
+    "keywords": ["package", "repository", "generator", "wordpress", "languages"],
+    "homepage": "https://wp-languages.1815.io",
     "type": "project",
     "license": "MIT",
     "authors": [{
-        "name": "Jordi Boggiano",
-        "email": "j.boggiano@seld.be",
-        "homepage": "https://seld.be"
+        "name": "Onni Hakala",
+        "homepage": "https://github.com/onnimonni"
     }, {
-        "name": "Nils Adermann",
-        "email": "naderman@naderman.de",
-        "homepage": "https://www.naderman.de"
-    }, {
-        "name": "Rob Bast",
-        "email": "rob.bast@gmail.com",
-        "homepage": "https://robbast.nl"
+        "name": "Dennis Enderink",
+        "email": "dennis@1815.nl",
+        "homepage": "https://1815.nl"
     }],
     "support": {
         "issues": "https://github.com/achttienvijftien/wp-languages.1815.io/issues",
         "source": "https://github.com/achttienvijftien/wp-languages.1815.io"
     },
-    "bin": ["bin/satis"],
+    "bin": ["bin/wp-org-api", "bin/satis"],
     "replace": {
         "symfony/polyfill-php72": "*",
         "symfony/polyfill-php73": "*"
@@ -35,7 +30,9 @@
         "twig/html-extra": "^3.3"
     },
     "autoload": {
-        "psr-4": { "Composer\\Satis\\": "src" }
+        "psr-4": {
+            "Composer\\Satis\\": "src"
+        }
     },
     "require-dev": {
         "ext-json": "*",
@@ -43,11 +40,8 @@
         "phpunit/phpunit": "^9.5"
     },
     "autoload-dev": {
-        "psr-4": { "Composer\\Satis\\": "tests" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "3.0-dev"
+        "psr-4": {
+            "Composer\\Satis\\": "tests"
         }
     },
     "scripts": {

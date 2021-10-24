@@ -1,12 +1,10 @@
 # wp-languages.1815.io
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
 ## Features
-- Supports **https** by using github.io ssl. Composer default configuration only accepts **https** by default starting from 2016.
 - Automatically creates composer packages for WordPress translations from api.wordpress.org.
 - This repo provides custom satis repository for WordPress languages. See more in [wp-languages.1815.io](https://wp-languages.1815.io/).
 - To add more language files please submit a pull request to the `src` branch.
-- Repos are updated hourly with GitHub Actions.
+- Repos are updated every half hour.
 
 ## Example configuration with composer
 
@@ -91,22 +89,8 @@ Then add it to your composer like this example. You just need to update the vers
 }
 ```
 
-## How to use this project as self-hosted version:
-
-```bash
-# Clone the project to your own server
-git clone https://github.com/wp-languages/wp-languages.1815.io /to/your/htdocs
-cd /to/your/htdocs
-composer install
-
-# Set new cronjob
-crontab -e
-
-# Add following line to your cron
-0 */2 * * * cd /to/your/htdocs && composer run-script cache-build
-```
-
-And serve the generated `docs` folder.
-
 ## License
-MIT License
+
+This project is licensed under the MIT License - see the [LICENSE][] file for details
+
+[LICENSE]: https://github.com/achttienvijftien/wp-languages.1815.io/blob/src/LICENSE

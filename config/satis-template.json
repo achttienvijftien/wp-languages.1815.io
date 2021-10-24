@@ -1,5 +1,5 @@
 {
-    "name": "1815/wp-languages",
+    "name": "achttienvijftien/wp-languages.1815.io",
     "description": "Composer language packs for WordPress translations. This includes translations for core and official themes and few plugins.",
     "homepage": "https://wp-languages.1815.io",
     "require-all": true,

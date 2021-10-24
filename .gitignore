@@ -2,6 +2,7 @@
 vendor
 
 # Ignore all satis libraries
+wp-packages.json
 satis.json
 
 # Ignore static html build by satis
