@@ -1,6 +1,7 @@
 language: php
 php: 7.4
-sudo: false
+dist: xenial
+os: linux
 install:
   - composer install
 before_install:
